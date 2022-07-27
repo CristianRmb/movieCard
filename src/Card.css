@@ -1,0 +1,42 @@
+.cardImg {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+body {
+  padding: 10px;
+}
+
+button {
+  border: solid 1px rgb(119, 255, 0);
+  width: 100px;
+  height: 40px;
+  background-color: aqua;
+  margin-bottom: 20px;
+  color: rgb(0, 37, 186);
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.cardContainer {
+  width: 300px;
+  min-height: 520px;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.cardTitle {
+  color: rgb(83, 83, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.description {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  row-gap: 20px;
+}
