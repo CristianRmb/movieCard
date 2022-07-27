@@ -9,13 +9,7 @@ body {
 }
 
 button {
-  border: solid 1px rgb(119, 255, 0);
-  width: 100px;
-  height: 40px;
-  background-color: aqua;
   margin-bottom: 20px;
-  color: rgb(0, 37, 186);
-  border-radius: 5px;
   margin-left: 20px;
 }
 
@@ -30,7 +24,15 @@ button {
   color: rgb(83, 83, 255);
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 0;
 }
+
+.releaseDate {
+  color: rgb(83, 83, 255);
+  padding-left: 10px;
+  margin: 0;
+}
+
 .description {
   padding-left: 10px;
   padding-right: 10px;
